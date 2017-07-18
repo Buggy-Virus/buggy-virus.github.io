@@ -1,25 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Inaugural Post"
 date:   2017-07-17 21:23:57 -0400
-categories: jekyll update
+categories: jekyll, meta
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Just pushed my intial Jekyll website using Git-Hub, and this is my first post to test and familiarize myself with the website. Big thanks to Martin Buberl and his fantastic blog on [quickly setting up a page using jekyll][martinbuberl-tutorial].
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+The plan for this website is to use it mainly to showcase projects I been working on, and provide a landing page for those who want to see my work or are considering me for a professional position. I'll probably also make way too much use of the blogging feature, and hopefully my posts interesting for others to read.
 
-Jekyll also offers powerful support for code snippets:
+Here's to the future, and keeping a positive attitude.s
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[martinbuberl-tutorial]: https://martinbuberl.com/blog/setup-jekyll-on-windows-and-host-it-on-github-pages/
