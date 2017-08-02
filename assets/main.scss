@@ -1,0 +1,297 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+@font-face {
+  font-family: "Avenir Roman";
+  src: url("AvenirLTStd-Roman.otf");
+}
+
+@font-face {
+  font-family: "Avenir Light";
+  src: url("AvenirLTStd-light.otf")
+}
+
+body {
+	background-image: url('background.png');
+	background-color: #f6f6f6;
+	background-position: center;
+	background-repeat: repeat-y;
+	font-family: "Avenir Light" !important;
+}
+
+.c-page-content {
+	padding: 0px 0px;
+}
+
+.c-d-wrapper {
+    max-width: calc(780px);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 40px;
+    background-color: #f6f6f6;
+    min-height: 660px;
+}
+
+.c-h-wrapper {
+    max-width: calc(800px);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 20px;
+}
+
+.c-site-header {
+	min-height: 56px;
+	position: relative;
+	background: #454545;
+    background: -moz-linear-gradient(top, #5e5e5e, #454545);
+    background: -webkit-linear-gradient(top, #5e5e5e, #454545);
+    background: -ms-linear-gradient(top, #5e5e5e, #454545);
+    background: -o-linear-gradient(top, #5e5e5e, #454545);
+    background: linear-gradient(top, #5e5e5e, #454545);
+}
+
+.c-site-title {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 54px;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+  float: left;
+  vertical-align: middle;
+  font-family: "Avenir Roman" !important;
+
+  &,
+  &:link {
+  	color: #ffffff;
+  }
+  &:visited {
+    color: #ffffff;
+  }
+  &:hover {
+  	text-decoration: none;
+  }
+}
+
+.c-site-nav {
+  float: right;
+  line-height: 54px;
+
+  .nav-trigger {
+      display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: 54px;
+	font-weight: 200;
+	font-family: "Avenir Roman" !important;
+	letter-spacing: 1px;
+	font-size: 18px;
+
+    // Gaps between nav items, but not on the last one
+  &,
+	&:link {
+      color: #a1a1a1;
+	}
+	&:visited {
+	  color: #a1a1a1;
+	}
+	&:hover {
+	  text-decoration: none;
+	  color: #ffffff;
+	}
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+.c-site-footer {
+    padding: 15px 0;
+    background: #2a2a2a;
+    background: -moz-linear-gradient(top, #232323, #2a2a2a);
+    background: -webkit-linear-gradient(top, #232323, #2a2a2a);
+    background: -ms-linear-gradient(top, #232323, #2a2a2a);
+    background: -o-linear-gradient(top, #232323, #2a2a2a);
+    background: linear-gradient(top, #232323, #2a2a2a);
+    box-shadow: 0px 500px 0px 500px #2a2a2a;
+}
+
+.c-icon-contact {
+	float: left;
+	margin: 0px 10px 0px 10px;
+	height: 46px;
+	width: 46px;
+	background-image: url('mail-fav-nh.png');
+	position:relative;
+}
+
+.c-icon-contact:hover {
+	background-image: url('mail-fav.png')
+}
+
+.c-icon-twitter {
+	float: left;
+	margin: 0px 10px 0px 10px;
+	height: 46px;
+	width: 46px;
+	background-image: url('twitter-fav-nh.png');
+	position:relative;
+}
+
+.c-icon-twitter:hover {
+	background-image: url('twitter-fav.png');
+}
+
+.c-icon-github {
+	float: left;
+	margin: 0px 10px 0px 10px;
+	height: 46px;
+	width: 46px;
+	background-image: url('github-fav-nh.png');
+	position:relative;
+}
+
+.c-icon-github:hover {
+	background-image: url('github-fav.png');
+}
+
+.c-icon-linkedin {
+	float: left;
+	margin: 0px 10px 0px 10px;
+	height: 46px;
+	width: 46px;
+	background-image: url('linkedin-fav-nh.png');
+	position:relative;
+}
+
+.c-icon-linkedin:hover {
+	background-image: url('linkedin-fav.png');
+}
+
+.c-center-wrapper {
+	margin: auto;
+	width: 264px;
+}
+
+.c-link-spanner {
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 1;
+}
+
+.c-page-heading {
+    font-size: 27px;
+}
+
+.c-project {
+  width: 355px;
+  height: 215px;
+  background-color: #eeeeee;
+  display: inline-block;
+  margin: 16px 16px;
+  border-radius: 5px;
+}
+
+.c-project-title-box {
+  width: 355px;
+  height: 35px;
+  padding: 0px 15px;
+  display: table;
+}
+
+.c-project-title {
+  font-size: 19px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+c-project-link{
+  color: #000000;
+}
+
+.c-project-link:link {
+  color: #000000;
+}
+
+.c-project-link:visited {
+  color: #000000;
+}
+
+.c-project-link:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.c-project-bar {
+  display: flex;
+  align-items: center;
+  width: 335px;
+  height: 30px;
+  padding: 0px 10px;
+}
+
+.c-project-date {
+  margin: initial;
+  margin-right: auto;
+  color: #828282;
+  font-size: 14px;
+}
+
+.c-project-github-icon {
+  margin-left: 4px;
+  background-image: url('light-github-icon-24.png');
+  height: 24px;
+  width: 24px;
+}
+
+.c-project-github-icon:hover {
+  background-image: url('github-icon-24.png');
+}
+
+.c-project-no-github-icon {
+  margin-left: 4px;
+  background-image: url('strike-github-icon-24.png');
+  height: 24px;
+  width: 24px;
+}
+
+.c-project-private-github-icon {
+  margin-left: 4px;
+  background-image: url('light-lock-icon-24.png');
+  height: 24px;
+  width: 24px;
+}
+
+.c-project-private-github-icon:hover {
+  background-image: url('lock-icon-24.png');
+}
+
+.c-project-page-icon {
+  margin-left: 4px;
+  background-image: url('light-page-icon-24.png');
+  height: 24px;
+  width: 24px;
+}
+
+.c-project-page-icon:hover {
+  background-image: url('page-icon-24.png');
+}
+
+.c-project-no-page-icon {
+  margin-left: 4px;
+  background-image: url('strike-page-icon-24.png');
+  height: 24px;
+  width: 24px;
+}

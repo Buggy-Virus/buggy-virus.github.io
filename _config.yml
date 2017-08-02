@@ -21,21 +21,30 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  Buggy-Virus
+repository: buggy-virus/buggy-virus.github.io
+
+minima:
+  date_format: "%b %-d, %Y"
+
+header_pages:
+  - projects.md
+  - about.md
+  - contact.md
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins_dir:
   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
