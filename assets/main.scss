@@ -15,10 +15,13 @@
 }
 
 body {
-	background-image: url('background.png');
-	background-color: #f6f6f6;
-	background-position: center;
-	background-repeat: repeat-y;
+  background: #f6f6f6;
+  background: -webkit-linear-gradient(to right, #fcfcfc, #e4e4e4, #fcfcfc);
+  background: -o-linear-gradient(to right, #fcfcfc, #e4e4e4, #fcfcfc);
+  background: -moz-linear-gradient(to right, #fcfcfc, #e4e4e4, #fcfcfc);
+  background: linear-gradient(to right, #fcfcfc, #e4e4e4, #fcfcfc);
+	background-image: url('background.png'), linear-gradient(to right, #fcfcfc, #e4e4e4, #fcfcfc);
+	background-repeat: repeat-y repeat-x;
 	font-family: "Avenir Light" !important;
 }
 
@@ -31,7 +34,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding: 20px 40px;
-    background-color: #f6f6f6;
+    background-color: #fdfdfd;
     min-height: 660px;
 }
 
@@ -46,11 +49,11 @@ body {
 	min-height: 56px;
 	position: relative;
 	background: #454545;
-    background: -moz-linear-gradient(top, #5e5e5e, #454545);
-    background: -webkit-linear-gradient(top, #5e5e5e, #454545);
-    background: -ms-linear-gradient(top, #5e5e5e, #454545);
-    background: -o-linear-gradient(top, #5e5e5e, #454545);
-    background: linear-gradient(top, #5e5e5e, #454545);
+  background: -moz-linear-gradient(top, #5e5e5e, #454545);
+  background: -webkit-linear-gradient(top, #5e5e5e, #454545);
+  background: -ms-linear-gradient(top, #5e5e5e, #454545);
+  background: -o-linear-gradient(top, #5e5e5e, #454545);
+  background: linear-gradient(top, #5e5e5e, #454545);
 }
 
 .c-site-title {
