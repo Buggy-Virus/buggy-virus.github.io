@@ -34,7 +34,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding: 20px 40px;
-    background-color: #fdfdfd;
+    background-color: #fbfbfb;
     min-height: 660px;
 }
 
@@ -200,7 +200,7 @@ body {
 .c-project {
   width: 355px;
   height: 215px;
-  background-color: #eeeeee;
+  background-color: #f4f4f4;
   display: inline-block;
   margin: 16px 16px;
   border-radius: 5px;
@@ -297,4 +297,9 @@ c-project-link{
   background-image: url('strike-page-icon-24.png');
   height: 24px;
   width: 24px;
+}
+
+.c-lang-list {
+  margin-bottom: 3px;
+  font-size: 15px;
 }

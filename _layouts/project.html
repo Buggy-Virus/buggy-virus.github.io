@@ -5,10 +5,57 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
+	<p>
+		{% if page.project-github %}
+		  <a href="{{ page.project-github }}" target="_blank">Github Repository</a> 
+		   - 
+		{% endif %}
+		{% if page.project-page %}
+		  <a href="{{ page.project-page }}" target="_blank">Project Page</a> 
+		{% endif %}
+	</p>
+  </header>
+
+  <header>
+    <h3>Languages</h3>
+  </header>
+
+  <ul class="c-lang-list">
+	{% assign langs = page.languages | split: ',' %}
+	{% for lang in langs %}
+	  <li>
+	    <p class="c-lang-list">{{ lang }}</p>
+	  </li>
+	{% endfor %}
+  </ul>
+  <br>
+
+  <header>
+    <h3>Description</h3>
   </header>
 
   <div class="post-content">
     {{ content }}
   </div>
+
+  <header>
+    <h2>Posts</h2>
+  </header>
+
+  <ul class="post-list">
+  	{% assign rel_posts = site.posts | where:"category",page.tag %}
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        <li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 
 </article>

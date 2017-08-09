@@ -31,6 +31,10 @@ header_pages:
   - about.md
   - contact.md
 
+project_pages:
+  - projects/debate-site.md
+  - projects/this-site.md
+
 # Build settings
 markdown: kramdown
 theme: minima
