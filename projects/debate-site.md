@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Brown Debate Website"
-pseudo-path: "/projects/debate-site/"
+pseudo-path: "/projects/debate-site"
 given-date:  "Apr, 2016"
 categories: debate-site, web-design
 tag: "debate-site,"
