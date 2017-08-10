@@ -303,3 +303,89 @@ c-project-link{
   margin-bottom: 3px;
   font-size: 15px;
 }
+
+.c-contact-icon-wrapper {
+  max-width: 780px;
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+  display: block;
+}
+
+.c-contact-icon {
+  display:inline-block;
+  height: 135px;
+  width: 135px;
+  margin: 45px 0px;
+  text-align: center;
+}
+
+.c-contact-info {
+  font-size: 12px;
+  margin-bottom: 0px;
+  color: #828282;
+}
+
+.c-dummy-icon {
+  display:inline-block;
+  height: 90px;
+  width: 90px;
+  background: blue;
+  text-align: center;
+}
+
+.c-contact-icon-email {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background-image: url('mail-contact-icon-nh.png');
+  position:relative;
+}
+
+.c-contact-icon-email:hover {
+  background-image: url('mail-contact-icon.png');
+}
+
+.c-contact-icon-twitter {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background-image: url('twitter-contact-icon-nh.png');
+  position:relative;
+}
+
+.c-contact-icon-twitter:hover {
+  background-image: url('twitter-contact-icon.png');
+}
+
+.c-contact-icon-github {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background-image: url('github-contact-icon-nh.png');
+  position:relative;
+}
+
+.c-contact-icon-github:hover {
+  background-image: url('github-contact-icon.png');
+}
+
+.c-contact-icon-linkedin {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background-image: url('linkedin-contact-icon-nh.png');
+  position:relative;
+}
+
+.c-contact-icon-linkedin:hover {
+  background-image: url('linkedin-contact-icon.png');
+}
+
+.c-whisper {
+  font-size: 10px;
+}
+
+.c-269h {
+  height: 269px;
+}
