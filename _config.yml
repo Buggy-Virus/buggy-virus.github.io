@@ -18,7 +18,7 @@ email: Oliver_Hare@Brown.edu
 description: > # this means to ignore newlines until "baseurl:"
   The personal website of Oliver Hare, hosting blog posts, project pages, and general information.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://oliverhare.us" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  Buggy-Virus
 repository: buggy-virus/buggy-virus.github.io

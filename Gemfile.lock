@@ -154,6 +154,7 @@ DEPENDENCIES
   github-pages (= 104)
   jekyll (= 3.3.0)
   jekyll-feed (~> 0.6)
+  jekyll-seo-tag
   jekyll-theme-lanyon
   jekyll-theme-modernist
   jekyll-theme-slate
