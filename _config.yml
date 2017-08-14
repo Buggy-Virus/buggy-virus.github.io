@@ -32,8 +32,9 @@ header_pages:
   - contact.md
 
 project_pages:
-  - projects/debate-site.md
   - projects/this-site.md
+  - projects/debate-site.md
+
 
 # Build settings
 markdown: kramdown
