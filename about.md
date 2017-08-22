@@ -16,7 +16,7 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 &nbsp;
 
-## Curriculum Vitae <span style="font-size: 16px;"> &nbsp; [Prinatable Resume][resume]</span>
+## Curriculum Vitae <span style="font-size: 16px;"> &nbsp; <a href="/assets/resume.pdf" target="_blank">Prinatable Resume</a></span>
 
 ### **Education**
 
@@ -67,7 +67,7 @@ Whatever the reason you came to my website, I hope I was able to help.
 ##### <span style="font-size: 15px">*Teaching Assistant for CS1570: Design and Analysis of Algorithms, 2017-2018*</span>
 
 - Helped design, organize, and run the course
-- Instructed course materials during TA hours and review sessions
+- Instructed students on course materials during TA hours and review sessions
 - Graded assignments and other course materials submitted by students
 
 &nbsp;
@@ -116,7 +116,7 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 &nbsp;
 
-### **Extra-Curriculars**
+### **Extracurriculars**
 
 #### Brown Debating Union
 
@@ -269,5 +269,4 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 &nbsp;
 
-[resume]: assets/resume.pdf
 [projects]: /projects/
