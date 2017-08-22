@@ -29,9 +29,15 @@ layout: default
           <div class="c-project-no-page-icon"></div>
         {% endif %}
         {% if my_project.project-github %}
-          <a href="{{ my_project.project-github }}" target="_blank">
-            <div class="c-project-github-icon"></div>
-          </a>
+          {% if my_project.private-github %}
+            <a href="{{ my_project.project-github }}" target="_blank">
+              <div class="c-project-private-github-icon"></div>
+            </a>
+          {% elsif true %}
+            <a href="{{ my_project.project-github }}" target="_blank">
+              <div class="c-project-github-icon"></div>
+            </a>
+          {% endif %}
         {% elsif true %}
           <div class="c-project-no-github-icon"></div>
         {% endif %}
@@ -40,9 +46,9 @@ layout: default
   {% endfor %}
 
   <div class="c-preload">
-    <img src="/assets/light-page-icon-24.png">
-    <img src="/assets/light-github-icon-24.png">
-    <img src="/assets/light-lock-icon-24.png">
+    <img src="/assets/page-icon-24.png">
+    <img src="/assets/github-icon-24.png">
+    <img src="/assets/lock-icon-24.png">
   </div>
 
 </article>

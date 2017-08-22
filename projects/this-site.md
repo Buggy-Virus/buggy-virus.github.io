@@ -8,6 +8,7 @@ tag: "this-site,"
 tags:  this-site, web-design
 languages:  "HTML/CSS3,Liquid,Markdown"
 project-github:  "https://github.com/Buggy-Virus/buggy-virus.github.io"
+private-github:  false
 project-page:  "/"
 menu-img:  "/assets/proj-website.png"
 menu-img-alt: "oliverhare.us"

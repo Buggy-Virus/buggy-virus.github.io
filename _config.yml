@@ -32,6 +32,7 @@ header_pages:
   - contact.md
 
 project_pages:
+  - projects/selenium-bots.md
   - projects/this-site.md
   - projects/debate-site.md
 

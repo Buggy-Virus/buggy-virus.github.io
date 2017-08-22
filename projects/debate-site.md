@@ -8,6 +8,7 @@ tag: "debate-site,"
 tags:  debate-site, web-design
 languages:  "HTML/CSS3"
 project-github:  false
+private-github:  false
 project-page:  "http://students.brown.edu/Debate/"
 menu-img:  "/assets/proj-debate.png"
 menu-img-alt: "Brown Debate Union"
