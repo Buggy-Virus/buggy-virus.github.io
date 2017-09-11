@@ -95,22 +95,22 @@ But our ability to rotate the ship effectively is highly influenced by how well 
 ### Center of Mass
 
 $$
-x_{cm, discrete} = \frac{\sum_{i} m_i x_i}{M}
+x_{cm,\ discrete} = \frac{\sum_{i} m_i x_i}{M}
 $$
 
 $$
-y_{cm, discrete} = \frac{\sum_{i} m_i y_i}{M}
+y_{cm,\ discrete} = \frac{\sum_{i} m_i y_i}{M}
 $$
 
 $$
-x_{cm, continuous} = \frac{\int_{0}^{M} = x dm}{M}
+x_{cm,\ continuous} = \frac{\int_{0}^{M} = x dm}{M}
 $$
 
 $$
-y_{cm, continuous} = \frac{\int_{0}^{M} = y dm}{M}
+y_{cm,\ continuous} = \frac{\int_{0}^{M} = y dm}{M}
 $$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;">Center of mass is the sum of masses weighted by their position over the sum of all mass. This is calculated for both the *x* and *y* axes. For 3D space, it is also calculated along the *z* axis.</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;">Center of mass is the sum of masses weighted by their position over the sum of all mass. This is calculated for both the x and y axes. For 3D space, it is also calculated along the z axis.</span></center>
 
 &nbsp;
 
