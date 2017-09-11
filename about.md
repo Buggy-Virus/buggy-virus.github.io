@@ -24,7 +24,9 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 ##### <span style="font-size: 15px">*Master of Computer Science, 2017 - 2018*</span>
 
-- CS1570: &nbsp; Design and Analysis of Algorithms
+- CS2470: Deep Learning
+- CS1570: Design and Analysis of Algorithms
+- CS1730: Design and Implementation of Programming Languages
 - CS1951A: Data Science
 
 ##### <span style="font-size: 15px">*Bachelor of Arts in Physics, 2013-2017*</span>
