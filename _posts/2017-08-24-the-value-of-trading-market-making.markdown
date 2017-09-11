@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "The Value of Trading: Market Making"
-date:   2017-08-23 15:50:00 -0400
+date:   2017-08-24 15:50:00 -0400
 categories: trading, finance,
 tags: trading, finance,
 ---
-A common question I've gotten from many of my friends is what value does trading add to society. I think the fact that trading doesn't have a physical product, in addition to the zero sum game traders play against each other, makes it seem to many people that trading is an activity that that only enriches those who engage in it, possibly to the detriment to the rest of society. I hope I'll be able to explain why this isn't the case.
+A common question I've gotten from many of my friends is what value does trading add to society. I think the fact that trading doesn't have a physical product, in addition to the zero sum game traders play against each other, makes it seem to many people that trading is an activity that only enriches those who engage in it, possibly to the detriment to the rest of society. I hope I'll be able to explain why this isn't the case.
 
 The simplest answer to this question is that trading makes markets more efficient. I'm sure you've heard this before, and it isn't exactly clear why we should care about market efficiency. The reason is efficient markets free up capital, which can then be used to create some tangible product. Below I'll explain some examples that illustrate this process, and how trading is beneficial to all non-traders in a market.
 
