@@ -140,7 +140,7 @@ Instead, we could implement a layer of the spaceship, which holds masses which c
 
 <center><img src="/assets/designing-a-spaceship-part-1/spaceship-pic-16.png" alt="Masses on a Track" style="width:700px;height:350px;text-align:center;"></center>
 
-You know me, so you know I love imagining these systems as infinitely distributed with a density, so let’s do the same with this mass layer. Imagine that instead of a bunch of masses on tracks, it is a massive circular (spherical) mesh with density $$ \rho_m $$. Our computer can send electric signals to it that causes it to change shape, contracting and ballooning in different areas.
+You know I love imagining these systems as infinitely distributed around the ship with some density, so let’s do the same with this mass layer. Imagine that instead of a bunch of masses on tracks, it is a massive circular (spherical) mesh with density $$ \rho_m $$. Our computer can send electric signals to it that causes it to change shape, contracting and ballooning in different areas.
 
 <center><img src="/assets/designing-a-spaceship-part-1/spaceship-pic-17.png" alt="Smart Mass Mesh" style="width:700px;height:350px;text-align:center;"></center>
 
