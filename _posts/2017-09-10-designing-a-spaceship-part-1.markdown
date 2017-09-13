@@ -7,7 +7,7 @@ tags: physics, scifi, space, spaceship,
 ---
 I think about spaceship design a reasonable amount due to my healthy (unhealthy) interest in science fiction and space simulations. I’m going to talk about some of my thoughts on what a theoretical maneuverable spacecraft would look like while adhering to the laws of physics (well some of them at least). Through these topics we’ll build up the what a spacecraft that engages in dogfights in outer space should look like, instead of a strange fighter jet.
 
-I’m going to split this discussion into two posts, the first oh how an agile zero-gravity fighter should be designed. And the second post will be on designing a cockpit for a human pilot in a spaceship which needs to shoot stuff (like other spaceships!).
+I’m going to split this discussion into two posts, the first on how an agile zero-gravity fighter should be designed. And the second post will be on designing a cockpit for a human pilot in a spaceship which needs to shoot stuff (like other spaceships!).
 
 &nbsp;
 
@@ -36,7 +36,7 @@ To achieve this, the most obvious design is to just have a circle (this will be 
 
 &nbsp;
 
-We can create acceleration in any direction by fire two of the thrusters and controlling the thrust of each thruster. Thus our four translational thruster is the simplest possible setup able to accelerate in all directions.  
+We can create acceleration in any direction by firing two of the thrusters and controlling the thrust of each thruster. Thus our four translational thruster is the simplest possible setup able to accelerate in all directions.  
 
 We could also imagine a theoretical case where our spaceship has an infinite number of thrusters orthogonal to the surface of our circle and all around the ship. Instead of each thruster having its own individual thrust, the surface of the ship has a thrust density of $$ \rho_t $$. Meaning that per for some length of the ship’s surface, we know how much thrust it can potentially output.
 
