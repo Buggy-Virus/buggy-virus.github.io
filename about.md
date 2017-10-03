@@ -6,7 +6,7 @@ permalink: /about/
 
 This website was created to showcase my past work and projects, posts my thoughts on various topics, and give myself a landing page to help with the struggle that is finding a job. My posts range from mathematics, board and video games, and other quantitative or analytical topics. I only hope I’m able to write something worth reading.
 
-I graduated Brown University with a B.A. in physics and a B.A. in mathematics. After experimenting with the Brown Computer Science Department my senior year and filling every free course slot I could manage with CS courses, I made the decision to stay at Brown for my masters in the discipline.
+I graduated Brown University with a B.A. in physics and a B.A. in mathematics. After experimenting with the Brown Computer Science Department my senior year and filling every free course slot I could manage with CS courses, I made the decision to stay at Brown for my master's degree in the discipline.
 
 Whatever the reason you came to my website, I hope I was able to help.
 
@@ -16,7 +16,7 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 &nbsp;
 
-## Curriculum Vitae <span style="font-size: 16px;"> &nbsp; <a href="/assets/resume.pdf" target="_blank">Prinatable Resume</a></span>
+## Curriculum Vitae <span style="font-size: 16px;"> &nbsp; <a href="/assets/Oliver-Hare-Fintech-Resume-GPA-2017-09-24.pdf" target="_blank">Technical Resume</a> - <a href="/assets/Oliver-Hare-Resume-GPA-2017-09-26.pdf" target="_blank">General Resume</a></span>
 
 ### **Education**
 
@@ -24,10 +24,12 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 ##### <span style="font-size: 15px">*Master of Computer Science, 2017 - 2018*</span>
 
+- Researh: Algorithmic Game Theory, under [Amy Greenwald][amy]
 - CS2470: Deep Learning
 - CS1570: Design and Analysis of Algorithms
 - CS1730: Design and Implementation of Programming Languages
 - CS1951A: Data Science
+- CS1430: Computer Vision
 
 ##### <span style="font-size: 15px">*Bachelor of Arts in Physics, 2013-2017*</span>
 
@@ -160,6 +162,10 @@ Whatever the reason you came to my website, I hope I was able to help.
 	    <td>Proficient</td>
 	  </tr>
 	  <tr>
+	    <td>&bull; Matlab</td>
+	    <td>Proficient</td>
+	  </tr>
+	  <tr>
 	    <td>&bull; Pyret</td>
 	    <td>Proficient</td>
 	  </tr>
@@ -173,6 +179,26 @@ Whatever the reason you came to my website, I hope I was able to help.
 	  </tr>
 	  <tr>
 	    <td>&bull; Javascript</td>
+	    <td>Proficient</td>
+	  </tr>
+	  <tr>
+	    <td>&bull; C#</td>
+	    <td>Familiar</td>
+	  </tr>
+	  <tr>
+	    <td>&bull; Java</td>
+	    <td>Familiar</td>
+	  </tr>
+	  <tr>
+	    <td>&bull; Tensorflow</td>
+	    <td>Familiar</td>
+	  </tr>
+	  <tr>
+	    <td>&bull; D3</td>
+	    <td>Familiar</td>
+	  </tr>
+	  <tr>
+	    <td>&bull; Liquid</td>
 	    <td>Familiar</td>
 	  </tr>
 	  <tr>
@@ -182,22 +208,6 @@ Whatever the reason you came to my website, I hope I was able to help.
 	  <tr>
 	    <td>&bull; K</td>
 	    <td>Familiar</td>
-	  </tr>
-	  <tr>
-	    <td>&bull; C</td>
-	    <td>Used Before</td>
-	  </tr>
-	  <tr>
-	    <td>&bull; Java</td>
-	    <td>Used Before</td>
-	  </tr>
-	  <tr>
-	    <td>&bull; D3</td>
-	    <td>Used Before</td>
-	  </tr>
-	  <tr>
-	    <td>&bull; Liquid</td>
-	    <td>Used Before</td>
 	  </tr>
 	</table>
 </div>
@@ -272,3 +282,4 @@ Whatever the reason you came to my website, I hope I was able to help.
 &nbsp;
 
 [projects]: /projects/
+[amy]: http://cs.brown.edu/people/faculty/amy/
