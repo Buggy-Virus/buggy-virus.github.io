@@ -200,7 +200,7 @@ $$ \int_{d}^{\infty} f_{a, 1} (x) dx \leq 0\ or\ \epsilon\ $$
 
 $$ the\ collective\ tilt\ delta\ of\ some\ group\ c = tilt_c = \sum_{}^{c} \Delta tilt $$
 
-$$ probability\ of\ trench = p(tilt_{a \setminus 1} \neq tilt_b) \approx 56 \% $$
+$$ probability\ of\ trench = p(\mid tilt_{a \setminus 1} - tilt_b \mid \geq d) \approx 56 \% $$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 4: Trench Calculation, <a href="https://docs.google.com/spreadsheets/d/1dOAfkb3SnAaC50lp5ZNSWAy02oHrCtWNg6LmkmJJ6Bs/edit#gid=0" target="_blank">Computation Sheet</a> </span></center>
 
