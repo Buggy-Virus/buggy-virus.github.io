@@ -6,7 +6,7 @@ categories: dota2, esports, trench, statistics,
 tags: dota2, esports, trench, statistics,
 ---
 
-The Trench  refers to a phenomenon in team based games where a player feels the outcome of matches is often highly influenced by poor player behavior. This phenomenon manifests mainly in games with ranked matchmaking, and has the effect of making players feel they are unable to affect the outcome of matches. In this post I explain this phenomenon and its cause s with a simple mathematical model. I investigate this issue in the context of Dota 2, but I hope this post will give insight into the Trench for games with a similar match making system such as League of Legends, Overwatch, and others.
+The Trench  refers to a phenomenon in team based games where a player feels the outcome of matches is often highly influenced by poor player behavior. This phenomenon manifests mainly in games with ranked matchmaking, and has the effect of making players feel they are unable to affect the outcome of matches. In this post I explain this phenomenon and its causes with a simple mathematical model. I investigate this issue in the context of Dota 2, but I hope this post will give insight into the Trench for games with a similar match making system such as League of Legends, Overwatch, and others.
  
 This post is meant to be descriptive rather than prescriptive, i.e. I’m not going to give a list of tips one can utilize to climb through the Trench, but rather explain why it feels like the Trench exists, why many players of varying skill will argue that it doesn’t exist, and why it gets reported at all skill levels.
  
@@ -88,7 +88,7 @@ We are going to make skill numbers roughly correspond to MMR (This is the numeri
  
 There are two effects that mainly contribute to people feeling like they are in the Trench. The first effect is instances where the difference between one’s team and the opponents’ team skill sum excluding the player is greater than the upper bound of the player’s skill probability distribution. Thus the player is unable to affect the outcome of the match. I’ll refer to this as the **True Trench**.
  
-The second phenomenon that causes people to feel that they are in the Trench are when players have a MMR near their mean skill. Their MMR may be oscillating, making them believe that they are gaining MMR as they should be, then losing it due to factors out of their control, but in reality they are within the band of MMR that we would expect them to sit in according to the variance of their skill probability distribution. I’ll refer to this as the virtual Trench.
+The second phenomenon that causes people to feel that they are in the Trench are when players have a MMR near their mean skill. Their MMR may be oscillating, making them believe that they are gaining MMR as they should be, then losing it due to factors out of their control, but in reality they are within the band of MMR that we would expect them to sit in according to the variance of their skill probability distribution. I’ll refer to this as the Virtual Trench.
 
 &nbsp;
 
@@ -96,7 +96,7 @@ The second phenomenon that causes people to feel that they are in the Trench are
  
 ### The True Trench
  
-Basically this refers to players being in situations, where even if their mean skill is greater than or equal to their current MMR, regardless of how well they play, they can’t be expected affect the outcome of a large percentage of the games they play. They don’t lose these games, but the outcome is decided almost purely by which team has more toxic or tilted players.
+The True Trench refers to when players systematically encounter dice-rolly matches. Dice-roll matches are situations where, regardless of how well a player performs, they can’t be expected affect the outcome of a match. They don’t lose these games, but the outcome is decided almost purely by which team has more toxic or tilted players.
  
 These situations are due to difference between the teams’ skill sums, excluding the player in question, is greater than the player’s upper bound of their skill probability distribution (or greater than the range of skill that they could reasonably expect to contribute).
 
@@ -150,7 +150,7 @@ We are going to use this simple model that considers there to be a binary betwee
  
 The number of levels and tilt delta for each level would be unique for each player, but for the sake of simplicity, we are going to stick with our binary model.
  
-The last piece I’m going to add to this model, is how the player’s skill distribution is affected by how toxic they are. We are going to consider toxicity to be similar to tilt, it’s a binary where some games players are toxic and others they are not, and there is some probability as to whether they will be toxic in any given game. When they are toxic, it lowers their skill probability distribution by a toxicity delta. In reality, they are actually lowering the skill probability distributions of their teammates in the game, but we isolate the effect to their skill probability distribution to show that they are directly lowering their team’s skill sum in a game by being toxic.
+The last piece I’m going to add to this model is how the player’s skill distribution is affected by how toxic they are. We are going to consider toxicity to be similar to tilt, it’s a binary where some games players are toxic and others they are not, and there is some probability as to whether they will be toxic in any given game. When they are toxic, it lowers their skill probability distribution by a toxicity delta. In reality, they are actually lowering the skill probability distributions of their teammates in the game, but we isolate the effect to their skill probability distribution to show that they are directly lowering their team’s skill sum in a game by being toxic.
  
 <center><img src="/assets/tilt-toxicity-and-the-trench/graph-5.png" alt="Toxic" style="width:700px;height:350px;text-align:center;"></center>
 
@@ -254,7 +254,7 @@ With this fact, any rational player who is in a Trench is advantaged by choosing
  
 ### The Virtual Trench
  
-The virtual Trench has less of a mathematical explanation, and instead requires more psychological assumptions. Because the idea that players’ MMR have variance isn’t a crazy or particularly interesting idea, but there seem to be various factors that cause players to reject the idea that their fluctuations in MMR is simply variance, and instead it’s the effect of the Trench.
+The Virtual Trench has less of a mathematical explanation, and instead requires more psychological assumptions. Because the idea that players’ MMR have variance isn’t a crazy or particularly interesting idea, but there seem to be various factors that cause players to reject the idea that their fluctuations in MMR is simply variance, and instead it’s the effect of the Trench.
  
 This section is based on my observations and assumptions about how players tend to think, so I have to add a disclaimer that this isn’t nearly as concretely reasoned as the previous section, and I haven’t collected any data to back this up. This is just my take on the phenomenon.
  
@@ -284,7 +284,7 @@ $$ if\ MMR_i \geq per_i (s_i) \implies per_i (E (\Delta MMR)) \leq 0 $$
 
 This perception is probably reinforced by the nature of snowballing team based games like Dota 2. Every once in awhile you will stomp a game due to a mix of factors, such as picks, the other team having players on tilt, or just random chance throughout the game. If a player ends up being the main beneficiary of the stomp, by having the most kills or by playing a core at the time, they might attribute this success to their play. The set of games that are stomps reinforces in the player’s mind that they are a higher MMR player. Conversely, whenever they lose, due to the fact that Dota 2 is often more a game of which team makes less mistakes than which team has better execution, they are offered a slew of excuses for blaming teammates for the loss in order to shield their ego.
  
-Now literally everyone thinks they are better than their MMR, and those who really aren’t, are provided a nice excuse of the Trench to rationalize why their MMR sits around 3.3K generally, instead of 4.5K (something I used to do) (I’m not 4.5K now, I’m just, more realistic).
+Now literally everyone thinks they are better than their MMR. If they aren't they can use the Trench as a nice excuse to rationalize why their MMR sits around 3.3K generally, instead of 4.5K (something I used to do) (I’m not 4.5K now, I’m just, more realistic).
 
 &nbsp;
 
@@ -312,7 +312,7 @@ $$ per_i (p(w)) \neq p(w) $$
 
 $$ \mid per_i (p(w)) - p(w) \mid = much\ higher\ than\ you'd\ think $$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 7: A Simple Fact</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 6: A Simple Fact</span></center>
 
 &nbsp;
  
@@ -336,7 +336,7 @@ Last thing I want to note pertains to the example players I had Liam play with. 
 
 $$ 0.05 \times 2200 + 0.05 \times 2700 + 0.9 \times 3700 = 3575 $$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 6: Well That Wasn't Too Hard </span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 7: Well That Wasn't Too Hard </span></center>
 
 &nbsp;
 
