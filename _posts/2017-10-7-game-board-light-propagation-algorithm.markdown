@@ -244,7 +244,7 @@ Although we still get the weird effect of light propagating to squares that have
 
 &nbsp;
 
-Lastly calculating the light for all squares of the board takes $$ O(n^2) $$ time. It takes constant time to access all the needed values of the two adjacent squares, and again constant time to calculate the illuminance of $$ B(i, j) $$. We have $ n^2 $ squares, so it naturally becomes $$ O(n^2) $$.
+Lastly calculating the light for all squares of the board takes $$ O(n^2) $$ time. It takes constant time to access all the needed values of the two adjacent squares, and again constant time to calculate the illuminance of $$ B(i, j) $$. We have $$ n^2 $$ squares, so it naturally becomes $$ O(n^2) $$.
 
 &nbsp;
 
