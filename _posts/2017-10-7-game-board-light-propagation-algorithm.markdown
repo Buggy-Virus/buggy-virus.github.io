@@ -156,7 +156,7 @@ $$ E_{k, l + 4} = \frac{100}{4^2} = 6 $$
 
 &nbsp;
 
-As we can see, there is a 75% drop in intensity from the first square to the second, and then a 56% drop in intensity from the second to third. Thus the further we get away from the light source, the slower the change in light (you can also trivially show this fact by taking the derivative of the inverse square law ($$ \frac{dB}{dr} = - \frac{I}{r^3} $$ haha formating!)).
+As we can see, there is a 75% drop in intensity from the first square to the second, and then a 56% drop in intensity from the second to third. Thus the further we get away from the light source, the slower the change in light (you can also trivially show this fact by taking the derivative of the inverse square law ($$ \frac{dB}{dr} = - \frac{2I}{r^3} $$ haha formating!)).
 
 <center><img src="/assets/game-board-light-propagation-algorithm/fig-7.png" alt="Not How Light Works" style="width:700px;height:350px;text-align:center;"></center>
 
