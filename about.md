@@ -182,7 +182,7 @@ Whatever the reason you came to my website, I hope I was able to help.
 	    <td>Proficient</td>
 	  </tr>
 	  <tr>
-	    <td>&bull; C#</td>
+	    <td>&bull; C++</td>
 	    <td>Familiar</td>
 	  </tr>
 	  <tr>
