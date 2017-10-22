@@ -26,7 +26,7 @@ $$ E = \frac{I}{r^2} $$
 
 &nbsp;
 
-The main difficulty with a simple dynamic programming algorithm for this system is that light propagation obeys the inverse square law. Thus light dies out at a squared rate, rather than a linear one. I’ll go through my preliminary thoughts on how to design this system, and what was the issues with each one before revealing my solution. If you want to skip ahead and just read the actual solution, you can just go [here][link to bot].
+The main difficulty with a simple dynamic programming algorithm for this system is that light propagation obeys the inverse square law. Thus light dies out at a squared rate, rather than a linear one. I’ll go through my preliminary thoughts on how to design this system, and what was the issues with each one before revealing my solution. If you want to skip ahead and just read the actual solution, you can just <a href="#identifier">click here</a>.
 
 &nbsp;
 
@@ -182,9 +182,9 @@ There is no reason we should have any light from the source at square $$ W $$, b
 
 What we really want is for our squares to reflect that light must pass through squares adjacent to it if it hits a specific square, while not having to keep track of everything in between. We achieve this by combining these two naive solutions.
 
-&nbsp;
+<a id="identifier">&nbsp;
 
-## Real Solution
+## Real Solution 
 
 For the real solution we make use of both of our previous solutions. We calculate the illuminance for the square $$ B(i, j) $$ with no obstructions using the inverse square law. Then to determine what fraction of that light actually reaches that square, we look at the adjacent squares in between it and the source. If $$ B(i, j) $$ is down and to the right of the source, this means we are looking at the squares one to the left, $$ B(i, j - 1) $$, and one up, $$ B(i - 1, j) $$, from $$ B(i, j) $$.
 
