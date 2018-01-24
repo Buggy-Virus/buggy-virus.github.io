@@ -16,4 +16,4 @@ brown: false
 ---
 This project is a collection of python scripts using the Selenium module to create bots to mimic users and perform specific tasks. Currently all the scripts in the project focus on interacting with Reddit. Selenium is a python module that allows one to interact with web browsers. It is commonly used to automate simple web testing.
 
-Due to the fact that these bots can easily be deployed and used to cause mishaps, the repository isn't available unless you contact me.
+Due to the fact that these bots can easily be deployed and used to cause minor mishaps, the repository isn't available unless you contact me.
