@@ -20,8 +20,7 @@ $$D(x, y) = \sqrt{(x+y)^2}$$
 
 &nbsp;
 
-My team tried to improve Webgazer’s real time application through various methods, such as altering parameters or the data fed into the machine learning process. My contribution was showing that a convolutional neural net based on Anjith George and Aurobinda Routray’s paper, [Real-time Eye Gaze Direction Classification Using Convolutional Neural Network
-][paper], would outperform Webgazer in terms of accuracy while being able to maintain a reasonable frames per second.
+My team tried to improve Webgazer’s real time application through various methods, such as altering parameters or the data fed into the machine learning process. My contribution was showing that a convolutional neural net based on Anjith George and Aurobinda Routray’s paper, [Real-time Eye Gaze Direction Classification Using Convolutional Neural Network][paper], would outperform Webgazer in terms of accuracy while being able to maintain a reasonable frames per second.
 
 <center><img src="/assets/improving-webgazer/architecture.png" alt="Architecture" style="width:627px;height:220px;text-align:center;"></center>
 
