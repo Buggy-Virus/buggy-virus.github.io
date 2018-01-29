@@ -34,7 +34,7 @@ The architecture of the CNN consisted of 9 layers, one input layer, three convol
 
  The results of my CNN had 40% less error than Webgazer, while still being able to maintaining a speed of processing 51 frames per second for each of the four estimates. This showed that a CNN could replace the current machine learning method of Webgazer while still maintaining a tolerable frames per second in real time.
 
-If you want to look further into the details of this project, check out my group’s final report. It goes in depth on my contributions as well as my teammates. It is structured loosely like a research paper, but is slightly more bloated in order to fulfill the assignment’s criteria.
+If you want to look further into the details of this project, check out my group’s [final report][pap]. It goes in depth on my contributions as well as my teammates. It is structured loosely like a research paper, but is slightly more bloated in order to fulfill the assignment’s criteria.
 
 &nbsp;
 
@@ -52,6 +52,7 @@ If you want to look further into the details of this project, check out my group
 [webgazer]: https://webgazer.cs.brown.edu/
 [better]: https://tobiigaming.com/
 [paper]: https://arxiv.org/abs/1605.05258
+[pap]: /assets/csci-1430-final-report.pdf
 
 
 
