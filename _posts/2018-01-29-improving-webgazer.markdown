@@ -29,7 +29,7 @@ My team tried to improve Webgazer’s real time application through various meth
 &nbsp;
 
 
-The architecture of the CNN consisted of 9 layers, one input layer, three convolutional layers of size 7x7 then 5x5 then 3x3, each followed by a 2x2 max pooling layers, a fully connected layer of 4096, then a final fully  connected layer with 1 unit. A 42x50 pixel images of both eyes were fed through the CNN twice, giving four estimates, one for each eye in the $x$ and $y$ axes. Averaging the results from each eye together, we got our final estimate.
+The architecture of the CNN consisted of 9 layers, one input layer, three convolutional layers of size 7x7 then 5x5 then 3x3, each followed by a 2x2 max pooling layers, a fully connected layer of 4096, then a final fully  connected layer with 1 unit. A 42x50 pixel images of both eyes were fed through the CNN twice, giving four estimates, one for each eye in the $$x$$ and $$y$$ axes. Averaging the results from each eye together, we got our final estimate.
 
  The results of my CNN had 40% less error than Webgazer, while still being able to maintaining a speed of processing 51 frames per second for each of the four estimates. This showed that a CNN could replace the current machine learning method of Webgazer while still maintaining a tolerable frames per second in real time.
 
