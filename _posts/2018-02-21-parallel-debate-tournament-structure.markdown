@@ -34,7 +34,7 @@ In this post I propose an alternative system, which both drastically reduces the
 
 ## Parallel Tournament System
 
-We improve the tournament my running different parts of it in parallel, meaning we have different parts of the tournament run at the same time. Currently a tournament’s swiss system simply alternates between running rounds, pairing the next round based on all previous results, then running another round. It’s intuitive and straightforward, and is for the most part functional. I'll refer to tournaments of this type as standard APDA tournaments.
+We improve the tournament by running different parts of it in parallel, meaning we have different parts of the tournament run at the same time. Currently a tournament’s swiss system simply alternates between running rounds, pairing the next round based on all previous results, then running another round. It’s intuitive and straightforward, and is for the most part functional. I'll refer to tournaments of this type as standard APDA tournaments.
 
 <center><img src="/assets/parallel-debate-tournament-structure/img-3.png" alt="Sleek, efficient, historied" style="width:700px;height:350px;text-align:center;"></center>
 
@@ -56,23 +56,23 @@ During the second round, the tab receives the results of the first round, and us
 
 The power of this system is that whichever takes less time, pairing or the round, occurs while the other activity is ongoing. Thus we save a significant amount of time per round and pairing.
 
-To quickly illustrate how much time this would potentially save, let’s assume it takes $$50$$ minutes to run a round, and $$100$$ minutes to pair. If this is the case then a normal five round APDA tournament would take $$650$$ minutes. On the other hand, a five round parallel tournament would take $$400$$ minutes, $$50$$ minutes for the first and last round, and $$100$$ minutes for the pairing that takes place during rounds 2-4. Running an additional round only takes $$100$$ more minutes, adding 2 more rounds would still only take $$600$$. Thus, with these assumptions a seven round parallel tournament is still $$50$$ minutes shorter than 
+To quickly illustrate how much time this would potentially save, let’s assume it takes $$50$$ minutes to run a round, and $$45$$ minutes to pair. If this is the case then a normal five round APDA tournament would take $$430$$ minutes. On the other hand, a five round parallel tournament would take $$250$$ minutes, $$50$$ minutes for the first and last round, and $$50$$ minutes for the pairing that takes place during rounds 2-4. Running an additional round only takes $$50$$ more minutes, adding 2 more rounds would still only take $$350$$. Thus, with these assumptions a seven round parallel tournament is still $$80$$ minutes shorter than a standard APDA tournament.
 
-$$ \text{Average Standard Tournament Time}=t_{round} + (i-1)(t_{pair} + t_{round})$$
+$$\text{Average Standard Tournament Time}=f(x)= t_{round} + (i-1)(t_{pair} + t_{round})$$
 
-$$ \text{Average Standard Tournament Time}(5\ \text{rounds})=50m + 4(100m + 50m) = 650m$$
+$$f(5\ \text{rounds})= 50m + 4(45m + 50m) = 430m$$
 
-$$ \text{Average Parellel Tournament Time}=t_{round} + (i-2)max(t_{pair},t_{round}) + t_{round}$$
+$$\text{Average Parellel Tournament Time}=g(x)= t_{round} + (i-2)max(t_{pair},t_{round}) + t_{round}$$
 
-$$ \text{Average Parellel Tournament Time}(5\ \text{rounds})=50m + 3(100m) + 50m=400m$$
+$$g(5\ \text{rounds})= 50m + 3(50m) + 50m=250m$$
 
-$$ \text{Average Parellel Tournament Time}(7\ \text{rounds})=50m + 5(100m) + 50m=600m$$
+$$g(7\ \text{rounds})= 50m + 5(50m) + 50m=350m$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 1: Rough calculation of potential time saved.</span></center>
 
 &nbsp;
 
-These results rely heavily on my earlier assumptions about the length of rounds and pairings. Variance for these two amounts and other factors could make perfect parallelization impossible or cause other issues to occur. On the other hand there are many times when pairings take much longer than $$100$$ minutes at a tournament, in which case we would see the full possible speed up. One can’t be certain of of how much time a parallel tournament structure until it is actually tested, but it seems reasonable to assume it would be much faster for five rounds, and it’s feasible that a seven round parallel tournament could take about as long as a five round standard APDA tournament.
+These results rely heavily on my earlier assumptions about the length of rounds and pairings. Variance for these two amounts and other factors could make perfect parallelization impossible or cause other issues to occur. On the other hand there are many times when pairings take much longer than $$45$$ minutes at a tournament, in which case we would see the full possible speed up. One can’t be certain of of how much time a parallel tournament structure would save until it is actually tested, but it seems reasonable to assume it would be much faster for five rounds, and it’s feasible that a seven round parallel tournament could take about as long as a five round standard APDA tournament.
 
 The other strength of this system is, regardless of whether the tournament’s accuracy increases by running more rounds in the time saved, everyone gets to debate more. I’ll assume most of everyone who decides to spend their entire weekend at another school, sit in classrooms all day, then sleep on the floor, is doing it because they intrinsically enjoy debate, and would enjoy being able to get more rounds in at a tournament. Further, it gives everyone more practice at tournaments, thus we can expect the level of debate throughout the league to increase. This extra practice is especially valuable for non-breaking debaters who don’t access as many rounds at tournaments their breaking counterparts. 
 
