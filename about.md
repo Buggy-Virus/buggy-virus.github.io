@@ -38,6 +38,10 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 - Researh: Algorithmic Game Theory, under [Amy Greenwald][amy]
 - CS2470: Deep Learning
+- CS2540: Advanced Probabilistic Method
+- CS2951Z: Advanced Algorithmic Game Theory
+- CS2510: Approximation Algorithms, *audit*
+- CS1951G: Optimization Methods in Finance
 - CS1570: Design and Analysis of Algorithms
 - CS1730: Design and Implementation of Programming Languages
 - CS1951A: Data Science
