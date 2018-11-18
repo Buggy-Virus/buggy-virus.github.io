@@ -11,7 +11,7 @@ project-github:  "https://github.com/Buggy-Virus/buggy-virus.github.io"
 private-github:  false
 project-page:  "/"
 menu-img:  "/assets/proj-website.png"
-menu-img-alt: "oliverhare.us"
+menu-img-alt: "oliver-hare.com"
 brown: false
 ---
 This website was setup to be a landing page for Oliver Hare (me) for career and professional exposure. It has an [About page][about] and [Contact page][contact] for this reason, these contain general information about myself including a general description, links to relevent sites and accounts, and a CV.

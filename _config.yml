@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Oliver Hare
-email: Oliver_Hare@Brown.edu
+email: oliver.parsons.hare@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The personal website of Oliver Hare, hosting blog posts, project pages, and general information.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://oliverhare.us" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://oliver-hare.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  Buggy-Virus
 repository: buggy-virus/buggy-virus.github.io
