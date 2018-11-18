@@ -16,13 +16,25 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 &nbsp;
 
-## Curriculum Vitae <span style="font-size: 16px;"> &nbsp; <a href="/assets/Oliver-Hare-Fintech-Resume-GPA-2017-09-24.pdf" target="_blank">Technical Resume</a> - <a href="/assets/Oliver-Hare-Resume-GPA-2017-09-26.pdf" target="_blank">General Resume</a></span>
+## Curriculum Vitae <span style="font-size: 16px;"> &nbsp; <a href="/assets/Oliver-Hare-Fintech-Resume-GPA-2017-09-24.pdf" target="_blank">Technical Resume (Not Updated)</a> - <a href="/assets/Oliver-Hare-Resume-GPA-2017-09-26.pdf" target="_blank">General Resume</a></span>
+
+### **Work Experience**
+
+#### Bloomberg LP <span style="font-size: 12px;">Financial Software and Analytics, New York City, NY</span>
+
+##### <span style="font-size: 15px">*Software Engineer, 2018-Current*</span>
+
+- Design and build software to support the Bloomberg Terminal
+
+&nbsp;
+
+&nbsp;
 
 ### **Education**
 
 #### Brown University <span style="font-size: 12px;">Providence RI</span>
 
-##### <span style="font-size: 15px">*Master of Computer Science, 2017 - 2018*</span>
+##### <span style="font-size: 15px">*Master of Computer Science, 2017 - 2018, 4.0 GPA*</span>
 
 - Researh: Algorithmic Game Theory, under [Amy Greenwald][amy]
 - CS2470: Deep Learning
@@ -64,7 +76,7 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 &nbsp;
 
-### **Work Experience**
+### **Intern and Teaching Assistant Experience**
 
 #### Brown University <span style="font-size: 12px;">Computer Science Department, Providence RI</span>
 
@@ -179,6 +191,10 @@ Whatever the reason you came to my website, I hope I was able to help.
 	  </tr>
 	  <tr>
 	    <td>&bull; Javascript</td>
+	    <td>Proficient</td>
+	  </tr>
+	  <tr>
+	    <td>&bull; C#</td>
 	    <td>Proficient</td>
 	  </tr>
 	  <tr>
