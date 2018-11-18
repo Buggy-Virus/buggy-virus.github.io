@@ -6,7 +6,7 @@ permalink: /about/
 
 This website was created to showcase my past work and projects, posts my thoughts on various topics, and give myself a landing page to help with the struggle that is finding a job. My posts range from mathematics, board and video games, and other quantitative or analytical topics. I only hope I’m able to write something worth reading.
 
-I graduated Brown University with a B.A. in physics and a B.A. in mathematics. After experimenting with the Brown Computer Science Department my senior year and filling every free course slot I could manage with CS courses, I made the decision to stay at Brown for my master's degree in the discipline.
+I graduated Brown University with a B.A. in physics and a B.A. in mathematics. After experimenting with the Brown Computer Science Department my senior year and filling every free course slot I could manage with CS courses, I made the decision to stay at Brown for my master's degree in the discipline. Today, I am currently working at Bloomberg, writing software to support the Bloomberg Terminal at the intersection of computer science, data analytics and finance.
 
 Whatever the reason you came to my website, I hope I was able to help.
 
