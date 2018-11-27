@@ -70,11 +70,11 @@ First, we can calculate the expected number of packs per run for a player with s
 
 * $$P(5w)\ =\ \binom{5}{4}p^5(1-p)^1 + \binom{5}{5}p^5(1-p)^0\ =\ 5p^5(1-p) + p^5$$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 1: Probability of some number of wins given a probability of winning a match $$p$$ </span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 1: Probability of some number of wins given a probability of winning a match </span></center>
 
 &nbsp;
 
-The above block gives the probability of any specific number of wins, where wins is $$w$$. Generally it is the probability of winning raised to the power of the number of wins, multiplied by the probability of losing raised to the power of the number of losses, and multiplied by the number of ways the event can occur. It may seem that I under counted the amount of times each event can occur when calculating the probabilities, and that my binomial coefficients should be $$n$$ choose $$n-2$$ instead of $n$ choose $$n-1$$. But you need to consider the fact that for any time you get 2 losses, one of your losses will always be your last game. And similarly, if you ever end with less than 2 losses, your last game must be a win. You can plug in a number and verify these probabilities are unitary if you like, (I also do so myself in my [script](https://github.com/Buggy-Virus/artifact-analysis/blob/master/expectationGraphs.py){:target="_blank"} for generating graphs for this part of the article).
+The above block gives the probability of any specific number of wins, where wins is $$w$$. Generally it is the probability of winning raised to the power of the number of wins, multiplied by the probability of losing raised to the power of the number of losses, and multiplied by the number of ways the event can occur. It may seem that I under counted the amount of times each event can occur when calculating the probabilities, and that my binomial coefficients should be $$n$$ choose $$n-2$$ instead of $$n$$ choose $$n-1$$. But you need to consider the fact that for any time you get 2 losses, one of your losses will always be your last game. And similarly, if you ever end with less than 2 losses, your last game must be a win. You can plug in a number and verify these probabilities are unitary if you like, (I also do so myself in my [script](https://github.com/Buggy-Virus/artifact-analysis/blob/master/expectationGraphs.py){:target="_blank"} for generating graphs for this part of the article).
 
 For the expected number of packs for Phantom Draft, we now just take the sum of each  event's probability multiplied by its number of packs.
 
@@ -88,7 +88,7 @@ $$E[d] = P(4w) + 2 P(5w)$$
 
 This gives us the expected number of packs for a single Phantom Draft run, $$E[d]$$, where $$d$$ denotes a phantom draft run. For Keeper draft, we can consider the 5 packs worth of cards as part of the rewards for a specific run, and we simply add 5 packs to get the expectation.
 
-$$E[d'] = 5 + 1 P(4w) + 2 P(5w)$$$$
+$$E[d'] = 5 + 1 P(4w) + 2 P(5w)$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 3: Expected packs from one Keeper Draft run </span></center>
 
@@ -112,7 +112,7 @@ $$E[t] = 1 + t \big( P(3w) + P(4w) + P(5w) \big)$$
 
 &nbsp;
 
-If we always redeem each of the tickets $$t$$, we can consider rewards that give $t$ as instead the expected number of runs $$t$$ gives us, thus we get an equation we can use to solve for the expected number of runs given an initial $$t$$.
+If we always redeem each of the tickets $$t$$, we can consider rewards that give $$t$$ as instead the expected number of runs $$t$$ gives us, thus we get an equation we can use to solve for the expected number of runs given an initial $$t$$.
 
 $$E[t] = 1 + E[t] \big( P(3w) + P(4w) + P(5w) \big)$$
 
@@ -152,6 +152,8 @@ $$\big( P(4w) + 2 P(5w) \big) \times \frac{1}{1 - \big( P(3w) + P(4w) + P(5w) \b
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 7: Also the expected number of packs from one Phantom Draft ticket </span></center>
 
+&nbsp;
+
 I actually scratched my head on how to describe how one aught interpret this result without basically saying, "it's the expected number of packs per run times the expected number of runs per ticket", again. Honestly, I don't think anything really describes it better than that. So, it's the expected number of packs per run times the expected number of runs per ticket. So again, as your probability of going infinite increases, your expected rewards blow up.
 
 Given that packs are supposed to hold some real money value on the marketplace, this equation implies that players with high winrates would expect enormous value in terms of rewards from 1 ticket.
@@ -188,7 +190,7 @@ $$E[t] = \frac{1}{1 - \big( P(3w) + P(4w)(1 + \gamma) + P(5w)(1 + 2\gamma) \big)
 
 This equation looks similar to the vanilla expected number of runs per Phantom Draft ticket, but now we have all these weird $$\gamma$$s floating around. Intuitively, better the rate you can exchange packs for tickets, the more runs you will get to play.
 
-The odd part about this equation, is when not exchanging, it was impossible to go infinite, as $$P(3w) + P(4w) + P(5w) < 1$$. So for a given win probability, you would always get a real positive number as your expected number of wins.
+The odd part about this equation, is when not exchanging, it was impossible to go infinite, as $$P(3w) + P(4w) + P(5w) < 1$$. So for a given win probability less than 1, you would always get a real positive number as your expected number of runs.
 
 For the expectation with recyclying, depending on win probability and recycle rate, $$P(3w) + P(4w)(1 + \gamma) + P(5w)(1 + 2\gamma)$$ can be greater than 1. If this is the case, the general equation I wrote will equal a negative number, which may be confusing. What it's implying is the expectation of one ticket is greater than 1 ticket. The only way to reconcile this in the equation is a negative number, but what it is implying is that you are expected to have an infinite number of runs, as each run you end up with an equal or greater number of tickets than you started with.
 
@@ -198,17 +200,17 @@ For the expectation with recyclying, depending on win probability and recycle ra
 
 For a baseline, let's consider the probabilities of achieving a certain number of wins in draft with a 50% win rate. If the matchmaking ranking of Artifact functions correctly, we can expect the majority of players to have a winrate that is about 50%.
 
-* $$P(0w) = 0.25
+* $$P(0w) = 0.25$$
 
-* $$P(1w) = 0.25
+* $$P(1w) = 0.25$$
 
-* $$P(2w) = 0.1875
+* $$P(2w) = 0.1875$$
 
-* $$P(3w) = 0.125
+* $$P(3w) = 0.125$$
 
-* $$P(4w) = 0.078125
+* $$P(4w) = 0.078125$$
 
-* $$P(5w) = 0.109375
+* $$P(5w) = 0.109375$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 9: Probability of a certain number of wins with a 50% winrate </span></center>
 
@@ -312,7 +314,7 @@ $$E[\vert R \vert q] \geq 1$$
 
 This is fairly straightforward, if you open as many packs as there are rares in the set of rares, in expectation you will recieve at least 1 of any specific rare. Here we'll introduce our first assumption: 
 
-* **Assumption 1:** The value of all other cards in the set of all cards except for a specific rare $$r$$, $$v(c), c\in C \setminus r$$, is zero, $$v(c)=0$$.
+* **Assumption 1:** The value of all other cards in the set of all cards except for a specific rare, $$v(c), c\in C \setminus r$$, is zero, $$v(c)=0$$.
 
 With this assumption, the expected cost of opening packs to get $$r$$ is simply the number of packs necessary to pull 1 $$r$$ in expectation times the cost of a pack. If we let the cost of a pack be $$g$$, then this is:
 
@@ -330,7 +332,7 @@ $$v(r) \leq E[v'(r)] \leq g\vert R \vert$$
 
 $$v(r) \leq g\vert R \vert$$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 13: **Upper bound 1**, upper bound on the marketplace cost of a specific rare due to the expected cost of getting the rare from packs, uses assumption 1 and 2</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 13: Upper bound 1, upper bound on the marketplace cost of a specific rare due to the expected cost of getting the rare from packs, uses assumption 1 and 2</span></center>
 
 &nbsp;
 
@@ -382,7 +384,7 @@ Thus, under assumption 1 and 3, we have an upper bound at the point where the ar
 
 $$v(r) \leq \frac{g\vert R \vert}{\delta}$$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 16: **Upper bound 2**, upper bound on marketplace cost of a specific rare due to arbitrage, uses assumpitions 1 and 2</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 16: Upper bound 2, upper bound on marketplace cost of a specific rare due to arbitrage, uses assumpitions 1 and 2</span></center>
 
 &nbsp;
 
@@ -402,7 +404,7 @@ $$v(r) \leq \frac{2(76)}{0.85}$$
 
 $$v(r) \leq 178.83$$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 17: **Upper bound 2**, upper bound on marketplace cost of a specific rare due to arbitrage, with input numbers, uses assumpitions 1 and 2</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 17: Upper bound 2, upper bound on marketplace cost of a specific rare due to arbitrage, with input numbers, uses assumpitions 1 and 2</span></center>
 
 &nbsp;
 
@@ -444,7 +446,7 @@ Under our assumptions this condition can never be true, we get another upper bou
 
 $$v(r) \leq \frac{\vert R \vert g}{\delta} - (\vert R \vert - 1)\alpha$$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 20: **Upper Bound 3**, upper bound using average cost of rares with assumption 1.1 and either assumption 2 or 3</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 20: Upper Bound 3, upper bound using average cost of rares with assumption 1.1 and either assumption 2 or 3</span></center>
 
 &nbsp;
 
@@ -452,7 +454,7 @@ Now we see that as we relax assumption 1 to assumption 1.1, the price of $$r$$ b
 
 $$v(r) \leq \frac{\vert R \vert g}{\delta} - (n\vert R \vert - 1)\beta$$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 21: **Upper Bound 4**, upper bound using the average cost of all other cards</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 21: Upper Bound 4, upper bound using the average cost of all other cards</span></center>
 
 &nbsp;
 
@@ -516,9 +518,9 @@ $$u \vert R \vert = \frac{\vert R \vert g}{\delta}$$
 
 $$u = \frac{g}{\delta}$$
 
-$$\Alpha \leq u = \frac{g}{\delta}$$
+$$\alpha \leq u = \frac{g}{\delta}$$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 23: **Upper Bound 5**, uppder bound for the average cost of a rare using assumption 1.1</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 23: Upper Bound 5, uppder bound for the average cost of a rare using assumption 1.1</span></center>
 
 So now we have a rather surprising result. The average cost of a rare is capped at the cost of a pack, times the inverse of $$\delta$$. If we consider assumption 2 to hold, then $$\delta$$ is simply 1, and then the average cost of a rare is capped at the cost of a pack. And if we only consider assumption 3 to hold, then it is capped at an amount slightly more than the price of a pack, and if assumption 3 does hold, some complicated arbitrage exists (somewhere).
 
@@ -530,9 +532,9 @@ Further this result is still assumes assumption 1.1 holds. I imagine there is a 
 
 So now if we plug in the cost of packs, we get:
 
-$$\Alpha \leq \frac{g}{\delta}$$
+$$\alpha \leq \frac{g}{\delta}$$
 
-$$\Alpha \leq $2$$
+$$\alpha \leq $2$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 24: Upper bound 5 for the average cost of a rare, with inputs using, assumption 1.1 and assumption 2</span></center>
 
@@ -540,7 +542,7 @@ $$\Alpha \leq $2$$
 
 The above bound is if we assume assumption 2 holds, and players will always choose to buy pack over go to the market place if the value of the rares they get from the packs exceeds the price of the number of packs required to get the a specific rare.
 
-$$\Alpha \leq $2.36$$
+$$\alpha \leq $2.36$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 26: Upper bound 5 for the average cost of a rare, with inputs, using assumption 1.1 and assumption 3</span></center>
 
@@ -561,3 +563,11 @@ The upper bounds I derived without using averages doesn't bound the price at a v
 Personally I expect assumptions 2 and 3 to be true, even if it isn't because of people actively making the calculus to buy packs instead when favorable, or people executing arbitrage opportunities. I'm not going to try to argue this here, as it is just a intuitive hunch from working with markets in the past, but seems like something that we are better off just waiting to observe when the game comes out (in less than a week).
 
 When I started working on these problems, I already intuitively understood the first two upper bounds I presented here, and had a general idea about the expectation from the draft being a somewhat reasonable value compared to opening packs. But the result of being when one is able play draft infinitely and the upper bound on the average cost of rares greatly surprised me. So I'm pretty glad I went through all of these calculations, and I hope people find it helpful or are able to use it for further analysis and discussion. You can see my scratchwork code for calculating some values and generating the graphs [here](https://github.com/Buggy-Virus/artifact-analysis){:target="_blank"}. Thanks.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
