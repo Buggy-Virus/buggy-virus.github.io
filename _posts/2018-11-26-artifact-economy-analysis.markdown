@@ -88,7 +88,7 @@ $$E[d] = P(4w) + 2 P(5w)$$
 
 This gives us the expected number of packs for a single Phantom Draft run, $$E[d]$$, where $$d$$ denotes a phantom draft run. For Keeper draft, we can consider the 5 packs worth of cards as part of the rewards for a specific run, and we simply add 5 packs to get the expectation.
 
-$$E[d'] = 5 + 1 P(4w) + 2 P(5w)$$
+$$E[d'] = 5 + P(3w) + 2 P(4w) + 3 P(5w)$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 3: Expected packs from one Keeper Draft run </span></center>
 
@@ -438,7 +438,7 @@ $$v(r) + (\vert R \vert - 1)\alpha \geq \frac{\vert R \vert g}{\delta}$$
 
 $$v(r) \geq \frac{\vert R \vert g}{\delta} - (\vert R \vert - 1)\alpha$$
 
-<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 19: Condition under which arbitrage exists or buying packs for a card is more attractive than the marketplace depending on assumptions and $$\delta$$</span></center>
+<center><span style="font-size:14px;color:#828282;text-align:center;"> Block 19: Condition under which arbitrage exists or buying packs for a card is more attractive than the marketplace depending on assumptions and delta</span></center>
 
 &nbsp;
 
@@ -521,6 +521,8 @@ $$u = \frac{g}{\delta}$$
 $$\alpha \leq u = \frac{g}{\delta}$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 23: Upper Bound 5, uppder bound for the average cost of a rare using assumption 1.1</span></center>
+
+&nbsp;
 
 So now we have a rather surprising result. The average cost of a rare is capped at the cost of a pack, times the inverse of $$\delta$$. If we consider assumption 2 to hold, then $$\delta$$ is simply 1, and then the average cost of a rare is capped at the cost of a pack. And if we only consider assumption 3 to hold, then it is capped at an amount slightly more than the price of a pack, and if assumption 3 does hold, some complicated arbitrage exists (somewhere).
 
