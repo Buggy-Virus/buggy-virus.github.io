@@ -58,17 +58,17 @@ For both formats, getting 3 wins awards the players the ticket cost to replay wh
 
 First, we can calculate the expected number of packs per run for a player with some probability $$p$$ of winning any given match. This expectation is simply the probability of ending with a specific number of wins times the number of packs you recieve for that many wins. First I give the formula for the probability of getting a specific number of wins for some $$p$$.
 
-* $$P(0w)\ =\ \binom{1}{1}p^0(1-p)^2\ =\ (1-p)^2$$
+$$P(0w)\ =\ \binom{1}{1}p^0(1-p)^2\ =\ (1-p)^2$$
 
-* $$P(1w)\ =\ \binom{2}{1}p^1(1-p)^2\ =\ 2p(1-p)^2$$
+$$P(1w)\ =\ \binom{2}{1}p^1(1-p)^2\ =\ 2p(1-p)^2$$
 
-* $$P(2w)\ =\ \binom{3}{2}p^2(1-p)^2\ =\ 3p^2(1-p)^2$$
+$$P(2w)\ =\ \binom{3}{2}p^2(1-p)^2\ =\ 3p^2(1-p)^2$$
 
-* $$P(3w)\ =\ \binom{4}{3}p^3(1-p)^2\ =\ 4p^3(1-p)^2$$
+$$P(3w)\ =\ \binom{4}{3}p^3(1-p)^2\ =\ 4p^3(1-p)^2$$
 
-* $$P(4w)\ =\ \binom{5}{4}p^4(1-p)^2\ =\ 5p^4(1-p)^2$$
+$$P(4w)\ =\ \binom{5}{4}p^4(1-p)^2\ =\ 5p^4(1-p)^2$$
 
-* $$P(5w)\ =\ \binom{5}{4}p^5(1-p)^1 + \binom{5}{5}p^5(1-p)^0\ =\ 5p^5(1-p) + p^5$$
+$$P(5w)\ =\ \binom{5}{4}p^5(1-p)^1 + \binom{5}{5}p^5(1-p)^0\ =\ 5p^5(1-p) + p^5$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 1: Probability of some number of wins given a probability of winning a match </span></center>
 
@@ -200,17 +200,17 @@ For the expectation with recyclying, depending on win probability and recycle ra
 
 For a baseline, let's consider the probabilities of achieving a certain number of wins in draft with a 50% win rate. If the matchmaking ranking of Artifact functions correctly, we can expect the majority of players to have a winrate that is about 50%.
 
-* $$P(0w) = 0.25$$
+$$P(0w) = 0.25$$
 
-* $$P(1w) = 0.25$$
+$$P(1w) = 0.25$$
 
-* $$P(2w) = 0.1875$$
+$$P(2w) = 0.1875$$
 
-* $$P(3w) = 0.125$$
+$$P(3w) = 0.125$$
 
-* $$P(4w) = 0.078125$$
+$$P(4w) = 0.078125$$
 
-* $$P(5w) = 0.109375$$
+$$P(5w) = 0.109375$$
 
 <center><span style="font-size:14px;color:#828282;text-align:center;"> Block 9: Probability of a certain number of wins with a 50% winrate </span></center>
 
