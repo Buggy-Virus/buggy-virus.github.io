@@ -506,13 +506,13 @@ $$v(r) = \frac{\vert R \vert g}{\delta} - (\vert R \vert - 1)\alpha$$
 
 In order for this condition to be true across all $$r$$, it requires that all rares be the same price, thus the $$\alpha$$ for any $$r$$ will be equal to $$v(r)$$. Thus we can find the upper bound for the average cost of the rare cards, where $$u$$ the upper bound.
 
-$$v(r) = \frac{\vert R \vert g}{\delta} - (n\vert R \vert - 1)\alpha$$
+$$v(r) = \frac{\vert R \vert g}{\delta} - (\vert R \vert - 1)\alpha$$
 
-$$u = \frac{\vert R \vert g}{\delta} - (n\vert R \vert - 1)u$$
+$$u = \frac{\vert R \vert g}{\delta} - (\vert R \vert - 1)u$$
 
-$$u + (n\vert R \vert - 1)u = \frac{\vert R \vert g}{\delta}$$
+$$u + (\vert R \vert - 1)u = \frac{\vert R \vert g}{\delta}$$
 
-$$u\big(1 + (n\vert R \vert - 1)\big) = \frac{\vert R \vert g}{\delta}$$
+$$u\big(1 + (\vert R \vert - 1)\big) = \frac{\vert R \vert g}{\delta}$$
 
 $$u \vert R \vert = \frac{\vert R \vert g}{\delta}$$
 
