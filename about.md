@@ -16,7 +16,7 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 &nbsp;
 
-## Curriculum Vitae <span style="font-size: 16px;"> &nbsp; <a href="/assets/Oliver-Hare-Fintech-Resume-GPA-2017-09-24.pdf" target="_blank">Technical Resume (Not Updated)</a> - <a href="/assets/Oliver-Hare-Resume-GPA-2017-09-26.pdf" target="_blank">General Resume</a></span>
+## Curriculum Vitae <span style="font-size: 16px;"> &nbsp; <a href="/assets/Oliver-Hare-Resume-2020-02-20.pdf" target="_blank">Resume</a>
 
 ### **Work Experience**
 
@@ -25,6 +25,21 @@ Whatever the reason you came to my website, I hope I was able to help.
 ##### <span style="font-size: 15px">*Software Engineer, 2018-Current*</span>
 
 - Design and build software to support the Bloomberg Terminal
+
+&nbsp;
+
+&nbsp;
+
+### **Career**
+
+#### Bloomberg LLP <span style="font-size: 12px;">New York NY</span>
+
+##### <span style="font-size: 15px">*Software Engineer, 2018 - Present, 4.0 GPA*</span>
+
+- Aid Bloomberg Indices team in the publication of the Bloomberg Barclays Indices
+- Manage and oversee projects related to data acquisition and calculation of Bloomberg’s convertible indices
+- Made enhancements to Bloomberg’s index calculation engine improving design and speed; C++, Python
+- Built full stack application for flagging, viewing and analyzing issues in bond data; Javascript, Python
 
 &nbsp;
 
@@ -203,7 +218,7 @@ Whatever the reason you came to my website, I hope I was able to help.
 	  </tr>
 	  <tr>
 	    <td>&bull; C++</td>
-	    <td>Familiar</td>
+	    <td>Proficient</td>
 	  </tr>
 	  <tr>
 	    <td>&bull; Java</td>
