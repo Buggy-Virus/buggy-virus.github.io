@@ -20,21 +20,9 @@ Whatever the reason you came to my website, I hope I was able to help.
 
 ### **Work Experience**
 
-#### Bloomberg LP <span style="font-size: 12px;">Financial Software and Analytics, New York City, NY</span>
+#### Bloomberg LLP <span style="font-size: 12px;">New York CITY NY</span>
 
-##### <span style="font-size: 15px">*Software Engineer, 2018-Current*</span>
-
-- Design and build software to support the Bloomberg Terminal
-
-&nbsp;
-
-&nbsp;
-
-### **Career**
-
-#### Bloomberg LLP <span style="font-size: 12px;">New York NY</span>
-
-##### <span style="font-size: 15px">*Software Engineer, 2018 - Present, 4.0 GPA*</span>
+##### <span style="font-size: 15px">*Software Engineer, 2018 - Present*</span>
 
 - Aid Bloomberg Indices team in the publication of the Bloomberg Barclays Indices
 - Manage and oversee projects related to data acquisition and calculation of Bloomberg’s convertible indices
