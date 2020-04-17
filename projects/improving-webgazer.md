@@ -3,9 +3,9 @@ layout: project
 title:  "Improving Webgazer"
 pseudo-path: "/projects/improving-webgazer"
 given-date:  "Dec, 2017"
-categories: improving-webgazer, deep-learning, computer-vision, brown-university, coursework,
-tag: "improving-webgazer,"
-tags: improving-webgazer, deep-learning, computer-vision, brown-university, coursework,
+categories: improving-webgazer deep-learning computer-vision brown-university coursework
+tag: "improving-webgazer"
+tags: improving-webgazer deep-learning computer-vision brown-university coursework
 languages: "Python, Javascript"
 project-github:  "https://github.com/eecatlin/webgazer"
 private-github:  false

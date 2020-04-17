@@ -3,9 +3,9 @@ layout: project
 title:  "Selenium Bots"
 pseudo-path: "/projects/selenium-bots"
 given-date:  "Aug, 2017"
-categories: selenium-bots, automation, bots, reddit,
-tag: "selenium-bots,"
-tags:  selenium-bots, automation, bots, reddit,
+categories: selenium-bots automation bots reddit
+tag: "selenium-bots"
+tags:  selenium-bots automation bots reddit
 languages:  "Python"
 project-github:  "https://github.com/Buggy-Virus/selenium-bots"
 private-github:  true

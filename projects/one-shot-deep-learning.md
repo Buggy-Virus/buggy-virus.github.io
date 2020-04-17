@@ -3,9 +3,9 @@ layout: project
 title:  "One Shot Deep Learning"
 pseudo-path: "/projects/one-shot-deep-learning"
 given-date:  "Dec, 2017"
-categories: one-shot-deep-learning, deep-learning, one-shot-learning, brown-university, coursework,
-tag: "one-shot-deep-learning,"
-tags: one-shot-deep-learning, deep-learning, one-shot-learning, brown-university, coursework,
+categories: one-shot-deep-learning deep-learning one-shot-learning brown-university coursework
+tag: "one-shot-deep-learning"
+tags: one-shot-deep-learning deep-learning one-shot-learning brown-university coursework
 languages: "Python"
 project-github:  "https://github.com/vanyacohen/cs2470-one-shot"
 private-github:  false

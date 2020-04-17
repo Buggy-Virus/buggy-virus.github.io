@@ -3,9 +3,9 @@ layout: project
 title:  "Brown Debate Website"
 pseudo-path: "/projects/debate-site"
 given-date:  "Apr, 2016"
-categories: debate-site, web-design
-tag: "debate-site,"
-tags:  debate-site, web-design
+categories: debate-site web-design
+tag: "debate-site"
+tags:  debate-site web-design
 languages:  "HTML/CSS3"
 project-github:  false
 private-github:  false

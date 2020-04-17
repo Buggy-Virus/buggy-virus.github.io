@@ -3,9 +3,9 @@ layout: project
 title:  "This Site"
 pseudo-path: "this-site"
 given-date:  "Aug, 2017"
-categories: this-site, web-design
-tag: "this-site,"
-tags:  this-site, web-design
+categories: this-site web-design
+tag: "this-site"
+tags:  this-site web-design
 languages:  "HTML/CSS3,Liquid,Markdown"
 project-github:  "https://github.com/Buggy-Virus/buggy-virus.github.io"
 private-github:  false
