@@ -2,8 +2,8 @@
 layout: post
 title:  "Improving Webgazer"
 date:   2018-01-29 02:00:00 -0000
-categories: improving-webgazer, deep-learning, computer-vision, brown-university, coursework,
-tags: improving-webgazer, deep-learning, computer-vision, brown-university, coursework,
+categories: improving-webgazer deep-learning computer-vision brown-university coursework
+tags: improving-webgazer deep-learning computer-vision brown-university coursework
 ---
 
 I recently added the project [Improving Webgazer][improving] to my [projects page][projects], a project I completed in a team for Brown University’s course [CSCI 1430: Computer Vision][vis]. The intent of the project was to improve [Webgazer][webgazer] which is a browser based eye tracking service. After opening the application and providing it with training data as to where you are looking at your screen, it will continuously provide an estimate as to which point of the screen you are looking at based on the image from your webcam.

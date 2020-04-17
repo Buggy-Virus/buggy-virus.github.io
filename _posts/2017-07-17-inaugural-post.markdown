@@ -2,8 +2,8 @@
 layout: post
 title:  "Inaugural Post"
 date:   2017-07-17 21:23:57 -0400
-categories: this-site, meta,
-tags: meta, this-site,
+categories: this-site meta
+tags: meta this-site
 ---
 Hey I'm Oliver Hare, I just pushed my intial Jekyll website using Git-Hub, and this is my first post to test and familiarize myself with the website. Big thanks to Martin Buberl and his fantastic blog on [quickly setting up a page using jekyll][martinbuberl-tutorial].
 

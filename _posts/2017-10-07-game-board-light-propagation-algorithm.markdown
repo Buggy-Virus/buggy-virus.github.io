@@ -2,8 +2,8 @@
 layout: post
 title:  "Game Board Light Propagation Algorithm"
 date:   2017-10-22 02:00:00 -0000
-categories: daedalus, algorithms, light, lightsys,
-tags: daedalus, algorithms, light, lightsys,
+categories: daedalus algorithms light lightsys
+tags: daedalus algorithms light lightsys
 ---
 
 In my free time I’ve been trying to come up with a good $$O(n^2)$$ algorithm for propagating light across a $$ 2D $$ game-board of with side length of $$n$$, thus $$n^2$$ tiles. We can think of this game board as  a $$ 2D $$ array, and we’ll call it *B*, where each cell represents a specific square, and can keep track of various variables related to the square. 

@@ -2,8 +2,8 @@
 layout: post
 title:  "Parallel Debate Tournament Structure"
 date:   2018-02-21 02:00:00 -0000
-categories: debate, mechanism-design, simulation, debate-tournament-simulator,
-tags: debate, mechanism-design, simulation, debate-tournament-simulator,
+categories: debate mechanism-design simulation debate-tournament-simulator
+tags: debate mechanism-design simulation debate-tournament-simulator
 ---
 
 The American Parliamentary Debate Association is basically a series of weekly tournaments at various colleges across the United States, which various other colleges travel to and compete. Tournaments generally last two days and are comprised of two parts:

@@ -2,8 +2,8 @@
 layout: post
 title:  "Artifact Economy Analysis"
 date:   2018-11-24 02:00:00 -0000
-categories: artifact, esports, gaming, statistics, probability,
-tags: artifact, esports, gaming, statistics, probability,
+categories: artifact esports gaming statistics probability
+tags: artifact esports gaming statistics probability
 ---
 
 In the coming weeks, Valve's digital trading card game, [Artifact](https://playartifact.com/){:target="_blank"}, is slated for release. The game promises some of the most strategic and deep gameplay in the card game genre, and after Valve uncharacteristically marketing the game, featuring various other card games' professional players and streamers testing the beta and a reveal tournament, it seems to poised to fulfill that promise. Despite this, all news and discussion about the game has been overshadowed by one thing: the economy. The process by which you can gain cards, and the fact that it is purely through buying them, which is a point of consternation for many people in the age of free to play card games.

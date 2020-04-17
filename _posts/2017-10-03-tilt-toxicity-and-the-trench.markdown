@@ -2,8 +2,8 @@
 layout: post
 title:  "Tilt, Toxicity, and The Trench"
 date:   2017-10-02 20:52:00 -0000
-categories: dota2, esports, trench, statistics,
-tags: dota2, esports, trench, statistics,
+categories: dota2 esports trench statistics
+tags: dota2 esports trench statistics
 ---
 
 The Trench  refers to a phenomenon in team based games where a player feels the outcome of matches is often highly influenced by poor player behavior. This phenomenon manifests mainly in games with ranked matchmaking, and has the effect of making players feel they are unable to affect the outcome of matches. In this post I explain this phenomenon and its causes with a simple mathematical model. I investigate this issue in the context of Dota 2, but I hope this post will give insight into the Trench for games with a similar match making system such as League of Legends, Overwatch, and others.

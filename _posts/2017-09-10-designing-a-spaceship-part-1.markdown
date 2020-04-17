@@ -2,8 +2,8 @@
 layout: post
 title:  "Designing a Spaceship, Part 1"
 date:   2017-09-10 20:52:00 -0000
-categories: physics, scifi, space, spaceship,
-tags: physics, scifi, space, spaceship,
+categories: physics scifi space spaceship
+tags: physics scifi space spaceship
 ---
 I think about spaceship design a reasonable amount due to my healthy (unhealthy) interest in science fiction and space simulations. I’m going to talk about some of my thoughts on what a theoretical maneuverable spacecraft would look like while adhering to the laws of physics (well some of them at least). Through these topics we’ll build up the what a spacecraft that engages in dogfights in outer space should look like, instead of a strange fighter jet.
 

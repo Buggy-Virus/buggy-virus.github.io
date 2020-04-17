@@ -2,8 +2,8 @@
 layout: post
 title:  "Selenium Bots Project"
 date:   2017-08-21 20:52:00 -0400
-categories: selenium-bots, automation, bots, reddit,
-tags: selenium-bots, automation, bots, reddit,
+categories: selenium-bots automation bots reddit
+tags: selenium-bots automation bots reddit
 ---
 I've recently started working on some simple bots that will interact with certain sites using Selenium.
 

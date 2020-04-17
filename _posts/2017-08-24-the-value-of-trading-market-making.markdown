@@ -2,8 +2,8 @@
 layout: post
 title:  "The Value of Trading: Market Making"
 date:   2017-08-24 15:50:00 -0400
-categories: trading, finance,
-tags: trading, finance,
+categories: trading finance
+tags: trading finance
 ---
 A common question I've gotten from many of my friends is what value does trading add to society. I think the fact that trading doesn't have a physical product, in addition to the zero sum game traders play against each other, makes it seem to many people that trading is an activity that only enriches those who engage in it, possibly to the detriment to the rest of society. I hope I'll be able to explain why this isn't the case.
 

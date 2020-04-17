@@ -2,8 +2,8 @@
 layout: post
 title:  "Site Update 1"
 date:   2017-08-13 16:51:00 -0400
-categories: this-site,
-tags: this-site,
+categories: this-site
+tags: this-site
 ---
 21 commits later the site is at a presentable point. I started off with the basic Minima theme that Jekyll sites are created with by default. It's a simple serviceable theme, you can check it out and see a demo at the [Minima Repository][minima].
 
