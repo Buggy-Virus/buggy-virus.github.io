@@ -32,6 +32,8 @@ header_pages:
   - contact.md
 
 project_pages:
+  - projects/potluck.md
+  - projects/daedalus.md
   - projects/one-shot-deep-learning.md
   - projects/improving-webgazer.md
   - projects/selenium-bots.md
