@@ -10,7 +10,7 @@ languages:  "C#,dScript"
 project-github:  "https://github.com/Buggy-Virus/daedalus-0.1"
 private-github:  false
 project-page:  false
-menu-img:  ""
+menu-img:  "/assets/blank.png"
 menu-img-alt: "daedalus"
 brown: false
 ---

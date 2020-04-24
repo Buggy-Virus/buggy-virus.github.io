@@ -10,7 +10,7 @@ languages:  "C#,dScript"
 project-github:  "https://github.com/Buggy-Virus/potluck"
 private-github:  false
 project-page:  false
-menu-img:  ""
+menu-img:  "/assets/blank.png"
 menu-img-alt: "making maps for fun and fights"
 brown: false
 ---
