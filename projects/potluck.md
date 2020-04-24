@@ -6,7 +6,7 @@ given-date:  "Feb, 2020"
 categories: algorithms rpg games
 tag: "daedalus"
 tags:  algorithms rpg games
-languages:  "C#,dScript"
+languages:  "C#"
 project-github:  "https://github.com/Buggy-Virus/potluck"
 private-github:  false
 project-page:  false
