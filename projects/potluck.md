@@ -4,7 +4,7 @@ title:  "Potluck"
 pseudo-path: "potluck"
 given-date:  "Feb, 2020"
 categories: algorithms rpg games
-tag: "daedalus"
+tag: "potluck"
 tags:  algorithms rpg games
 languages:  "C#"
 project-github:  "https://github.com/Buggy-Virus/potluck"
