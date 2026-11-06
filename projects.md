@@ -4,4 +4,4 @@ title: Projects
 permalink: /projects/
 ---
 
-Nothing here yet
+This page is no longer being updated. Please visit [OPHare Studios](https://opharestudios.com/) for current and ongoing projects.

@@ -7,6 +7,10 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
   {% assign project_paths = site.project_pages | default: default_paths %}
   {% for path in project_paths %}
     {% assign my_project = site.pages | where: "path", path | first%}

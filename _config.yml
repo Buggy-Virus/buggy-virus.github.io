@@ -19,7 +19,6 @@ description: > # this means to ignore newlines until "baseurl:"
   The personal website of Oliver Hare, hosting blog posts, project pages, and general information.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://oliver-hare.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
 github_username:  Buggy-Virus
 repository: buggy-virus/buggy-virus.github.io
 
@@ -36,7 +35,6 @@ project_pages:
   - projects/daedalus.md
   - projects/one-shot-deep-learning.md
   - projects/improving-webgazer.md
-  - projects/selenium-bots.md
   - projects/this-site.md
   - projects/debate-site.md
 
